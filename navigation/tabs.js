@@ -24,7 +24,7 @@ const Tabs = () => {
                     tabBarShowLabel: false,
                     tabBarStyle: {
                         position: 'absolute',
-                      bottom: 25,
+                        bottom: 25,
                         left: 20,
                         right: 20,
                         elevation: 0,
@@ -35,6 +35,7 @@ const Tabs = () => {
                     }
                 }
             }
+            
         >
             <Tab.Screen name="Home" component={Home}
                 options={{
